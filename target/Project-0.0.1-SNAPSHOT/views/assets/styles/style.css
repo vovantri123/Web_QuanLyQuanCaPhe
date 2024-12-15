@@ -1,0 +1,408 @@
+/* Reset và thiết lập chung */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+/* Main */
+
+body {
+  line-height: 1.6;
+  margin: 0; 
+  padding: 0; 
+  color: #000;
+}
+
+
+/* Header và bố cục */
+header {
+  background-color: hsl(210, 29%, 24%);
+  color: white;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+.header-container > img {
+  width: 70px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.nav-link-feature {
+  height: auto;
+}
+
+/* Thanh điều hướng */
+.nav-links {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+.nav-links > li {
+  padding: 10px;
+}
+
+nav-link {
+	display:flex;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-feature {
+  display: inline-block;
+}
+
+.feature {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+.feature li {
+  margin: 0;
+  display: inline-block;
+}
+
+.feature .nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-item {
+	display: inline-flex;
+}
+
+.feature .dropdown-menu {
+  width: 100%;
+  display: none;
+  background-color: #fff;
+}
+
+.dropdown-menu li,
+.dropdown-menu li a {
+  width: 100%;
+}
+
+.dropdown-menu li:hover{
+	width: 100%;
+}
+
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #ccc;
+  color: #000;
+  width: 100%;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 18px; 
+  padding: 0px 10px; 
+}
+
+.feature li a {
+  text-decoration: none;
+  line-height: 46px;
+  padding: 0 30px;
+  display: block;
+}
+
+.feature-cart .cart span {
+  display: inline-block;
+}
+.feature .fa-solid {
+  color: #fff;
+}
+
+.feature .dropdown-menu {
+  width: auto; /* Điều chỉnh cho dropdown không quá rộng */
+}
+
+.nav-profile .profile{
+	display:flex;
+}
+
+
+.profile-images img{
+	width:50px;
+	margin-right:5px;
+	align-content: center;
+}
+
+.profile-names{
+	align-content: center;
+}
+
+.profile-names p{
+	font-size:16px;
+	margin-top:10px;
+}
+
+/* Định dạng slider tổng thể */
+.carousel-item img {
+  width: 100%;
+  height: 660px;
+  object-fit: contain;
+}
+
+
+/* Footer và bố cục */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  gap: 15%;
+}
+
+.footer-col {
+  width: 20%;
+  margin-right: 5px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-left: 0px;
+  margin-top: 10px;
+  padding: 5px 0;
+}
+
+.footer-col ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-line,
+.footer-copyright {
+  margin-top: 20px;
+}
+
+.footer-location,
+.footer-email,
+.footer-phone {
+  display: flex;
+  padding: 10px 0;
+  margin-top: 5px;
+}
+
+.footer-location i,
+.footer-email i,
+.footer-phone i {
+  margin-right: 20px;
+}
+
+/*Contact us và bố cục*/
+
+.contact-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-introduce-background {
+  margin-top: 80px;
+  background-image: url("/assets/images/roivnrg.png");
+  background-size: cover;
+  height: 400px;
+  left: 0;
+  top: 0;
+  color: white;
+  text-align: center;
+}
+
+.contact-introduce-background {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-introduce-background h1 {
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+.contact-introduce-background p {
+  margin-top: 20px;
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.contact-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-content .contact-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.contact-content .contact-image img {
+  width: 75%;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.contact-info {
+  width: 50%;
+  left: 0;
+  padding: 20px;
+}
+
+.contact-info-introduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info-introduce p {
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.contact-info-introduce h2 {
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.contact-info-method {
+  display: inline-flex;
+}
+
+.contact-info-message {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 20px;
+  gap: 10px;
+}
+.contact-info-phone {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.contact-info-message img,
+.contact-info-phone img {
+  width: 20%;
+  height: auto;
+}
+
+.contact-info-message p,
+.contact-info-phone p {
+  justify-content: flex-start;
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.contact-info-calender {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info-calender .working-hours {
+  width: 100%;
+  margin-top: 10px;
+  border: 2px solid #cbbca4;
+  display: inline-block;
+}
+
+.working-hours h2 {
+  text-align: center;
+}
+
+.contact-info-calender .working-hours li {
+  color: #706357;
+  margin-top: 20px;
+  display: flex;
+  list-style: none;
+  padding: 10px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.working-hours li hr {
+  width: 35%;
+}
+
+.working-hours li strong,
+.working-hours li p {
+  font-size: 18px;
+}
+
+.contact-location {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid #ccc;
+}
+
+.contact-location h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-location iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+

@@ -1,0 +1,302 @@
+/* Định dạng chung */
+.sliders-container {
+	margin-top: 81px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f8f8f8;
+}
+
+/* Slider */
+.slider {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Slide */
+.slides {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.slide {
+	min-width: 100%;
+	box-sizing: border-box;
+}
+
+.slide img {
+	width: 100%;
+	max-height: 466px;
+	max-height: 100%;
+	display: block;
+}
+
+/* Nút điều hướng */
+.prev, .next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 24px;
+	border-radius: 50%;
+}
+
+.prev {
+	left: 10px;
+}
+
+.next {
+	right: 10px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+/* Danh mục sản phẩm hot */
+.product-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 20px;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.product-grid>a {
+	text-decoration: none;
+}
+
+.catalog-product-title {
+	margin-top: 20px;
+	text-align: center;
+	color: #2c1d16;
+}
+
+.product-card {
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	overflow: hidden;
+	transition: box-shadow 0.3s, transform 0.3s;
+	text-align: center;
+}
+
+.product-card:hover {
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+	transform: translateY(-2px);
+}
+
+.product-card img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px 10px 0 0;
+}
+
+.product-info {
+	padding: 10px;
+}
+
+.product-name {
+	font-size: 1.2em;
+	margin: 5px 0;
+	color: #333;
+}
+
+.product-price {
+	font-size: 1em;
+	color: #ff9900;
+	font-weight: bold;
+	margin: 5px 0;
+}
+
+.custom-product-rating {
+	font-size: 0.9em;
+	color: #777;
+	margin-top: 5px;
+}
+
+.custom-rating-stars {
+	color: #ff9900;
+	font-size: 1em;
+	margin-right: 5px;
+}
+
+.custom-star {
+	color: #ff9900;
+}
+
+.custom-star {
+	color: #ff9900;
+}
+
+/* Danh mục loại sản phẩm */
+.category-container {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.category-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    padding: 20px;
+    justify-content: center;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: calc(15% - 20px); 
+    min-width: 200px; 
+}
+
+.grid-item a {
+    width: 100%;
+    text-decoration: none;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.grid-item p {
+    font-size: 14px;
+    color: #333;
+}
+
+.product-card.hidden {
+	display: none;
+}
+
+#showMoreBtn {
+	display: block;
+	margin: 5px auto;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #F0F0F0;
+	color: black;
+	border: 1px solid #F0F0F0;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#showMoreBtn:hover {
+	background-color: #0056b3;
+}
+.infor-container {
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa; 
+}
+
+/* Row Layout */
+.infor-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.infor-image {
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+.custom-img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Content Section */
+.infor-content {
+    flex: 1 1 50%;
+    color: #343a40;
+}
+
+.infor-label {
+    font-size: 1rem;
+    color: #D4AC0D;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.infor-image{
+	max-width: 500px;
+}
+
+.infor-title {
+    font-size: 2rem;
+    color: #212529;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.infor-divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.divider-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #A0522D;
+    border: none;
+}
+
+.divider-dot {
+    color: #212529;
+    font-size: 1.5rem;
+    line-height: 0;
+}
+
+/* Text */
+.infor-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.infor-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A0522D;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.infor-button:hover {
+    background-color: #D4AC0D;
+    text-decoration: none;
+}

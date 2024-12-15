@@ -1,0 +1,331 @@
+@charset "UTF-8";
+
+.dark-theme .container-fluid, .dark-theme .container, .dark-theme .row, .dark-theme .col {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .navbar, .dark-theme .navbar-light .navbar-nav .nav-link {
+    background-color: #333 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .btn, .dark-theme .btn-light, .dark-theme .btn-link {
+    background-color: #444 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #555 !important;
+}
+
+.dark-theme .btn:hover, .dark-theme .btn:focus {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+.dark-theme .list-group-item {
+    background-color: #222 !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+.dark-theme .list-group-item.active {
+    background-color: #555 !important;
+}
+
+.dark-theme .card {
+    background-color: #333 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #444 !important;
+}
+
+.dark-theme .table {
+    background-color: #333 !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+.dark-theme .table th, .dark-theme .table td {
+    border-color: #444 !important;
+}
+
+.dark-theme .modal-content {
+    background-color: #333 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .modal-header, .dark-theme .modal-footer {
+    background-color: #444 !important;
+}
+
+.dark-theme .form-control, .dark-theme .form-control:focus {
+    background-color: #222 !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+.dark-theme select.form-control, .dark-theme .custom-select {
+    background-color: #222 !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+.dark-theme .bg-light {
+    background-color: #333 !important;
+}
+
+.dark-theme .bg-dark {
+    background-color: #222 !important;
+}
+
+.dark-theme .text-dark {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .text-light {
+    color: #121212 !important;
+}
+
+.dark-theme .dropdown-menu {
+    background-color: #444 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .dropdown-item {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .dropdown-item:hover, .dark-theme .dropdown-item:focus {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+.dark-theme .dropdown-item.text-danger {
+    color: #ff5555 !important;
+}
+
+.dark-theme #toggleDrawerBtn {
+    background-color: #444 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #555 !important;
+}
+
+.dark-theme #toggleDrawerBtn:hover {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+.dark-theme .navbar-brand {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .navbar-brand:hover {
+    color: #fff !important;
+}
+
+.dark-theme #toggleDrawerBtn i {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme #toggleDrawerBtn i:hover {
+    color: #fff !important;
+}
+
+.dark-theme .table tbody tr:hover {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+.dark-theme .table tbody tr:hover td {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+.dark-theme .form-control, .dark-theme .custom-file-input, .dark-theme select.form-control {
+    background-color: #222 !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}
+
+.dark-theme .form-group label {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .btn-primary {
+    background-color: #444 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #555 !important;
+}
+
+.dark-theme .btn-primary:hover {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+.dark-theme .bg-warning {
+    background-color: #444 !important;
+}
+
+.dark-theme .custom-file-label {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .input-group-text {
+    background-color: #444 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .btn-secondary {
+    background-color: #444 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .btn-secondary:hover {
+    background-color: #555 !important;
+}
+
+.dark-theme .custom-file {
+    background-color: #333 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #444 !important;
+}
+
+.dark-theme .custom-file-input {
+    background-color: #222 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #444 !important;
+}
+
+.dark-theme .custom-file-input:focus {
+    background-color: #222 !important;
+    border-color: #555 !important;
+}
+
+.dark-theme .custom-file-label {
+    color: #e0e0e0 !important;
+    background-color: #444 !important;
+}
+
+.dark-theme .custom-file-label::after {
+    background-color: #555 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .drawer-logo {
+    border-color: #444 !important;
+}
+
+.dark-theme .list-group-item {
+    background-color: #333 !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .list-group-item a {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .list-group-item:hover {
+    background-color: #555 !important;
+}
+
+.dark-theme .icon {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .menu-text {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme #content {
+    background-color: #222 !important;
+}
+
+.dark-theme {
+    background-color: #333 !important;
+    color: #e0e0e0 !important;
+}
+.dark-theme thead tr {
+    background-color: #edf3f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme thead th {
+    color: #333 !important; /* Đảm bảo màu chữ tối trên nền sáng */
+}
+
+/*-----------------*/
+/* Dark theme cho form-group */
+.dark-theme .form-group {
+    background-color: #333 !important; /* Nền tối cho form group */
+    color: #e0e0e0 !important; /* Màu chữ sáng */
+}
+ 
+
+/* Dark theme cho custom file input */
+.dark-theme .custom-file-input {
+    background-color: #222 !important; /* Nền tối cho input file */
+    color: #e0e0e0 !important; /* Màu chữ sáng cho input file */
+    border-color: #444 !important; /* Viền tối cho input file */
+}
+
+/* Dark theme cho custom file label */
+.dark-theme .custom-file-label {
+    background-color: #444 !important; /* Nền tối cho label */
+    color: #e0e0e0 !important; /* Màu chữ sáng cho label */
+}
+
+/* Dark theme cho vùng chứa ảnh */
+.dark-theme .border {
+    background-color: #222 !important; /* Nền tối cho vùng chứa ảnh */
+    border-color: #444 !important; /* Viền tối cho vùng chứa ảnh */
+}
+
+/* Dark theme cho ảnh */
+.dark-theme .border img {
+    border-radius: 10px !important; /* Viền bo tròn cho ảnh */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important; /* Thêm bóng cho ảnh */
+}
+
+/* Thêm màu nền cho img-thumbnail để phù hợp với dark theme */
+.dark-theme .img-thumbnail {
+    background-color: #333 !important; /* Nền tối cho thumbnail */
+}
+
+/* Chart Container */
+.dark-theme .chart-container {
+    background-color: #333; /* Dark background for the container */
+    border-radius: 7px; /* Optional: Rounded corners for better aesthetics */
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Optional: Shadow to make it pop */
+}
+
+/* Set the canvas background to black */
+.dark-theme .chart-container canvas {
+    background-color: #111; /* Darker canvas background */
+}
+
+/* Make the text in chart container white */
+.dark-theme .chart-container h5 {
+    color: #fff; /* White text for headers */
+}
+
+/* Adjust the text of labels inside the charts */
+.dark-theme .chartjs-render-monitor {
+    color: #fff !important; /* Set the chart text color (labels, legend, etc.) to white */
+}
+
+/* Tooltip styling */
+.chartjs-tooltip {
+    background-color: #444 !important; /* Dark background for tooltips */
+    color: #fff !important;  /* White text in the tooltip */
+}
+
+/* Adjust color for axis ticks and labels */
+.dark-theme .chartjs-scale,
+.dark-theme .chartjs-legend {
+    color: #fff !important; /* White axis and legend text */
+}
+
+/* Chart lines and bars to make them visible on dark background */
+.dark-theme .chartjs-bar, .dark-theme .chartjs-line, .dark-theme .chartjs-pie, .dark-theme .chartjs-doughnut {
+    border-color: #fff !important;  /* Set chart border color to white */
+    color: #fff !important; /* Set general item colors for visibility */
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.profile-container-feature{
+	width: 80%;
+	margin: 0 auto;
+	justify-content: center;
+}
+.profile-form-control{
+}
+.profile-form{
+	display:flex;
+	flex-direction: row;
+	width: 80%;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}

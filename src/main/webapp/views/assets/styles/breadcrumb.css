@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.breadcrumb {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/* Breadcrumb items */
+.breadcrumb li {
+	display: inline;
+	font-size: 16px;
+}
+
+/* Link styling */
+.breadcrumb li a {
+	color: #0275d8;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+/* Separator between breadcrumb items */
+.breadcrumb li+li:before {
+	content: ">";
+	padding: 0 10px;
+	color: #555;
+}
+
+/* Last item (current page) styling */
+.breadcrumb li:last-child a {
+	color: #555;
+	pointer-events: none;
+	text-decoration: underline;
+}
+
+/* Hover effect */
+.breadcrumb li a:hover {
+	text-decoration: underline;
+}

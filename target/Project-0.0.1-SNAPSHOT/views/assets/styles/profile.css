@@ -1,0 +1,330 @@
+@charset "UTF-8";
+.body-container{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.profile-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.profile-form-control .fa-solid {
+	color: #000;
+}
+
+.profile-container h1 {
+	text-align: center;
+}
+
+.profile-container-feature {
+	display: flex;
+	flex-direction: row;
+}
+
+.profile-container-feature form {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 5%;
+	width: 100%;
+}
+
+form-group-control {
+	display: flex;
+}
+
+.profile-image {
+	width: 30%;
+	text-align: center;
+	flex-shrink: 0;
+	border-right: 2px solid #000;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.profile-image>input {
+	background: none;
+	padding: 0;
+	margin-top: 60px;
+	width: 250px;
+}
+
+.profile-image>img {
+	width: 80%;
+}
+
+.profile-form {
+	display: flex;
+	width: 100%;
+	padding: 10px;
+	flex-direction: column;
+}
+
+.profile-form form {
+	display: flex;
+}
+
+.profile-form-control {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.profile-form-control .profile-form-group {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	padding: 10px;
+}
+
+.profile-form-user {
+	width: 100%;
+}
+
+.profile-form-user .form-group-user {
+	margin-top: 10px;
+}
+
+.form-group-user {
+	position: relative;
+}
+
+.form-group-user i {
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.form-group-user>input[type="text"], .form-group-user>input[type="email"]
+	{
+	width: 100%;
+	padding: 10px 30px;
+	border-radius: 5px;
+	font-size: 20px;
+	border: 2px solid #000;
+}
+
+.form-group-user select, .form-group-user input[type="date"] {
+	width: 100%;
+	padding: 10px 30px;
+	border-radius: 5px;
+	font-size: 20px;
+	border: 2px solid #000;
+}
+
+.form-group-address {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form-group-country {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30%;
+}
+
+.form-group-country select {
+	width: 100%;
+	padding: 10px 30px;
+	border-radius: 5px;
+	font-size: 20px;
+	border: 2px solid #000;
+}
+
+.profile-form-user .number-house {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.number-house input[type="text"] {
+	width: 100%;
+	border: 2px solid #000;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	border: 2px solid #000;
+}
+
+.profile-button-control {
+	display: flex;
+	padding: 10px;
+	text-align: center;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+}
+
+.profile-button-control button, .profile-button-control a {
+	width: 15%;
+	height: 40px;
+	border-radius: 15px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.profile-button-control a{
+	color: #000;
+	text-decoration: none;
+	border: 2px solid #000;
+	text-align: center;
+}
+
+.profile-button-control button:hover, .profile-button-control a:hover {
+	background-color: aqua;
+}
+
+.profile-form-group-account input[type="password"] {
+	width: 100%;
+	border: 2px solid #000;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	border: 2px solid #000;
+}
+
+/* Login */
+.login-container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-image: url('');
+	background-color: #E3D9CF;
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.login-container-group{
+	display: flex;
+	margin: 50px 50px;
+	width: 90%;
+	flex-direction: row;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+.login-images{
+	width: 34%;
+	background-color: white;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.login-images img{
+	width: 100%;
+	border-top-left-radius: 10px; 
+  	border-bottom-left-radius: 10px; 
+}
+.login-form-control{
+	display:flex;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+	width: 30%;
+	background-color: white;
+	border-top-right-radius: 10px; 
+  	border-bottom-right-radius: 5px; 
+  	align-items: center;
+}
+
+.login-form {
+	width: 100%;
+	padding: 30px;
+	background-color: white;
+	text-align: center;
+}
+
+.login-form h2 {
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.login-form form {
+	display: flex;
+	flex-direction: column;
+}
+
+.login-forget-pass {
+	display: flex;
+	justify-content: right;
+}
+
+.login-action {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.login-form button[type="submit"] {
+	padding: 10px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 10px;
+	background-color: #007bff;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.login-form button[type="submit"]:hover {
+	background-color: #0056b3;
+}
+
+.social-login {
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	align-items: normal;
+	justify-content: space-between;
+}
+
+.social-login a {
+	width: 45%;
+	padding: 10px;
+	margin: 0 auto;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.facebook-login {
+	background-color: #3b5998;
+	color: white;
+}
+
+.facebook-login:hover {
+	background-color: #2d4373;
+}
+
+.google-login {
+	background-color: #db4437;
+	color: white;
+}
+
+.google-login:hover {
+	background-color: #c53727;
+}
+
+.social-login i {
+	margin-right: 8px;
+}
